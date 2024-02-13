@@ -1,12 +1,12 @@
-let favouriteFood = "Thai";
-console.log(favouriteFood);
+// let favouriteFood = "Thai";
+// console.log(favouriteFood);
 
-let age = "49";
-if ((age) => 18) {
-  console.log("I'm an adult");
-} else {
-  console.log("I'm a young person");
-}
+// let age = "49";
+// if ((age) => 18) {
+//   console.log("I'm an adult");
+// } else {
+//   console.log("I'm a young person");
+// }
 
 // let secretNumber = "32";
 // let guessNumber = prompt("Guess the secret number: ");
@@ -51,3 +51,16 @@ if ((age) => 18) {
 //   console.log ("Unfortunately you are unable to attendance")
 // }
 
+// let temperature = prompt("Enter the temperature");
+// let typeTemperature = prompt("is it fahrenheit or celsius")
+// let resultFahrenheit = typeTemperature.includes("f");
+// if (resultFahrenheit) {
+//   console.log((temperature - 32) * 5/9, " converted to celsius")
+//  } else {
+//   console.log((temperature * 9/5) + 32, " converted to fahrenheit")
+// }
+
+let groceries = ["milk", "bread", "apples", "shampoo"]
+let nonFood = groceries.pop()
+let food = groceries;
+console.log("non food items:", nonFood, "food items:", food)
