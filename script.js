@@ -52,7 +52,7 @@
 // }
 
 // let temperature = prompt("Enter the temperature");
-// let typeTemperature = prompt("is it fahrenheit or celsius")
+// let typeTemperature = prompt("Is it fahrenheit or celsius")
 // let resultFahrenheit = typeTemperature.includes("f");
 // if (resultFahrenheit) {
 //   console.log((temperature - 32) * 5/9, " converted to celsius")
@@ -60,7 +60,13 @@
 //   console.log((temperature * 9/5) + 32, " converted to fahrenheit")
 // }
 
-let groceries = ["milk", "bread", "apples", "shampoo"]
-let nonFood = groceries.pop()
-let food = groceries;
-console.log("non food items:", nonFood, "food items:", food)
+// let groceries = ["milk", "bread", "apples", "shampoo"]
+// let nonFood = groceries.pop()
+// let food = groceries;
+// console.log("non food items:", nonFood, "food items:", food)
+
+// let tripMileage = prompt("Enter total trip mileage: ");
+// let fuelEfficiency = prompt("Enter the fuel efficiency(miles per gallon): ")
+// let gasPrice = prompt("Enter the price of gas per gallon: $")
+// let totalTripCost = Number(tripMileage) / Number(fuelEfficiency) * (Number(gasPrice))
+// console.log("$",totalTripCost)
